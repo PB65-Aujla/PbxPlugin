@@ -15,7 +15,7 @@ from .formatter import readable_time
 
 class TelegraphAPI:
     def __init__(self) -> None:
-        self.shortname: str = "ThePbxBot"
+        self.shortname: str = "LIONS_OF_PANJAB"
         self.telegraph: Telegraph = None
 
     async def setup(self):
