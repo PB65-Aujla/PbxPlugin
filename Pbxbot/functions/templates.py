@@ -5,7 +5,7 @@ from Pbxbot.core import ENV, db
 
 ALIVE_TEMPLATES = [
     (
-"╰•★★ 💫 🅿🅱🆇 2.0 🅰🅻🅸🆅🅴💫 ★★•╯\n"
+"╰•★★ 💫 🅐︎🅤︎🅙︎🅛︎🅐︎ 2.0 🅰🅻🅸🆅🅴💫 ★★•╯\n"
 "❍═════════════════════════❍\n\n"
 "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
 "│➠ 𝐎ᴡɴᴇʀ » {owner}\n"
@@ -15,14 +15,14 @@ ALIVE_TEMPLATES = [
 "│➠ 𝐔ᴘᴛɪᴍᴇ » {uptime}\n"
 "╰✠╼━━━━━━❖━━━━━━━✠╯\n\n"
 "     ╔═════════════╗\n"
-"              [ 🇨🇦  𝗣𝗕𝗫  🌸 ](https://t.me/ll_THE_BAD_BOT_ll)\n"
+"              [ 🇨🇦  𝗔𝘂𝗷𝗹𝗮  🌸 ](https://t.me/LIONS_OF_PANJAB)\n"
 "     ╚═════════════╝\n\n"
 "❍═════════════════════════❍\n"
         ),
 ]
 
 PING_TEMPLATES = [
-    """ﾠ╰•★★ 💫 🅿🅱🆇 2.0 💫 ★★•╯
+    """ﾠ╰•★★ 💫 🅐︎🅤︎🅙︎🅛︎🅐︎ 2.0 💫 ★★•╯
 ❍════════════════════❍
 ╭✠╼━━━━━━❖━━━━━━━✠╮ 
 │•**𝐒ᴘᴇᴇᴅ ➠** {speed} m/s
@@ -30,7 +30,7 @@ PING_TEMPLATES = [
 │•**𝐎ᴡɴᴇʀ ➠** {owner} 
 ╰✠╼━━━━━━❖━━━━━━━✠╯
         ╔═════════════╗
-            <b><i>✬  <a href='https://t.me/ll_THE_BAD_BOT_ll'> 🇨🇦  𝗣𝗕𝗫  🌸 </a>  ✬</i></b>
+            <b><i>✬  <a href='https://t.me/LIONS_OF_PANJAB'> 🇨🇦  𝗔𝘂𝗷𝗹𝗮  🌸 </a>  ✬</i></b>
         ╚═════════════╝
 ❍════════════════════❍""",
 ]
@@ -233,6 +233,7 @@ GBAN_TEMPLATES = [
 ╰➢ **𝖲𝗎𝖼𝖼𝖾𝗌𝗌:** {success}
 ╰➢ **𝖥𝖺𝗂𝗅𝖾𝖽:** {failed}
 ╰➢ **𝖱𝖾𝖺𝗌𝗈𝗇:** {reason}
+╰➢ @LIONS_OF_PANJAB 🦁
 ╰────────────────•
 """
 ]
@@ -271,7 +272,7 @@ USER_INFO_TEMPLATES = [
 **➢ 𝖡𝗈𝗍:** `{isBot}`
 **➢ 𝖡𝗂𝗈:** `{bio}`
 
-**</> @ll_THE_BAD_BOT_ll**
+**</> @LIONS_OF_PANJAB**
 """
 ]
 
@@ -289,7 +290,7 @@ CHAT_INFO_TEMPLATES = [
 **➢ 𝖡𝗈𝗍𝗌:** `{botsCount}`
 **➢ 𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇:** `{description}`
 
-**</> @ll_THE_BAD_BOT_ll**
+**</> @LIONS_OF_PANJAB**
 """
 ]
 
@@ -303,7 +304,7 @@ async def alive_template(owner: str, uptime: str) -> str:
     return message.format(
         owner=owner,
         pyrogram=__version__["pyrogram"],
-        Pbxbot=__version__["Pbxbot"],
+        AᴜJʟᴀbot=__version__["Pbxbot"],
         python=__version__["python"],
         uptime=uptime,
     )
