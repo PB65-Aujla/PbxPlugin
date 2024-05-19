@@ -110,7 +110,7 @@ async def hearts(client: Client, message: Message):
     await asyncio.sleep(3)
     await message.edit("❤️ I Love You <3")
 
-@on_message("bad", allow_stan=True)
+@on_message("aujla", allow_stan=True)
 async def hearts(client: Client, message: Message):
     await phase1(message)
     await asyncio.sleep(SLEEP * 3)
@@ -120,7 +120,7 @@ async def hearts(client: Client, message: Message):
     await asyncio.sleep(0.5)
     await message.edit("💞 ᴍʏ ᴄᴜᴛᴇ ᴏᴡɴᴇʀ")
     await asyncio.sleep(3)
-    await message.edit("[⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸](https://t.me/ll_BAD_MUNDA_ll)")
+    await message.edit("[TᴇJɪɴᴅᴇʀ AᴜJʟᴀ](https://t.me/PB65_Aujla)")
 
 @on_message("rain", allow_stan=True)
 async def hearts(client: Client, message: Message):
@@ -153,7 +153,7 @@ async def hearts(client: Client, message: Message):
    await message.edit("🫣ᴛᴜ ᴍᴇʀɪ ᴀ ᴊᴀᴀɴ ᴍᴇᴛɪ 🤗")
    await message.edit("💋ʙᴀʙʏ ɪ ᴋɪss ʏᴏᴜ 🥰")
    await asyncio.sleep(3)
-   await message.edit("🙈sʜɪᴢᴜ ᴊᴀᴀɴ ɪ ʟᴏᴠᴇ ʏᴏᴜ ɪ ᴍɪss ʏᴏᴜ ɪ ᴋɪss ʏᴏᴜ💫🥰❤️") 
+   await message.edit("🙈 ᴊᴀᴀɴ ɪ ʟᴏᴠᴇ ʏᴏᴜ ɪ ᴍɪss ʏᴏᴜ ɪ ᴋɪss ʏᴏᴜ💫🥰❤️") 
 
 
 @on_message("loveu", allow_stan=True)
@@ -199,7 +199,7 @@ async def gunid(client: Client, message: Message):
        "▒░░▓▓▓▓▓▓█▄▄▄▄▄█▀╬░\n"
        "░░█▓▓▓▓▓▌░▒▒▒▒▒▒▒▒▒\n"
        "░▐█▓▓▓▓▓░░▒▒▒▒▒▒▒▒▒\n"
-       "░▐██████▌╬░▒▒▒▒▒▒▒▒\n",
+       "░▐██████▌ @PB65_Aujla\n",
     )
 
 @on_message("brain", allow_stan=True)
@@ -281,7 +281,7 @@ async def gahite(client: Client, message: Message):
     await asyncio.sleep(0.5)
     await message.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n😵😵😵😵 \n")
     await asyncio.sleep(0.5)
-    await message.edit("`RIP PLOXXX......`")
+    await message.edit("`RIP PLOXXX......by @LIONS_OF_PANJAB 🦁`")
     await asyncio.sleep(2)
 
 
@@ -411,7 +411,7 @@ async def gkahgagw(client: Client, message: Message):
         "⬜⬜⬛⬜⬜\n⬜⬜⬛⬜⬜\n⬜⬜🔴⬜⬜",
         "⬜⬜⬛⬜⬜\n⬜⬛⬜⬜⬜\n🔴⬜⬜⬜⬜",
         "🔴⬛⬛⬜⬜\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜⬜",
-        "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n⬜  [PBX  IS BEST](https://github.com/Badhacker98/PBX_2.0/fork) ⬜\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜",
+        "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n⬜  [AᴜJʟᴀ Cʜᴀᴛ](https://t.me/LIONS_OF_PANJAB) ⬜\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜",
     ]
     if message.forward_from:
         return
