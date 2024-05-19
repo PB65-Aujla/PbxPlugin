@@ -57,7 +57,7 @@ async def hajqag(client: Client, message: Message):
     animation_ttl = range(0, 18)
     await message.edit("Deploying........")
     animation_chars = [
-"**Heroku Connecting To Latest [Github Build](Badhacker98/PBX_2.0)**",
+"**Heroku Connecting To Latest [Github Build](@LIONS_OF_PANJAB0)**",
             f"**Build started by user** {DEFAULTUSER}",
             f"**Deploy** `535a74f0` **by user** **{DEFAULTUSER}**",
             "**Restarting Heroku Server...**",
@@ -66,8 +66,8 @@ async def hajqag(client: Client, message: Message):
             "**Process exited with** `status 143`",
             "**Starting process with command** `python3 -m stdborg`",
             "**State changed from starting to up**",
-            "__INFO:Pbxẞø†:Logged in as 557667062__",
-            "__INFO:Pbxẞø†:Successfully loaded all plugins__",
+            "__INFO:𝗔𝘂𝗷𝗹𝗮†:Logged in as 557667062__",
+            "__INFO:𝗔𝘂𝗷𝗹𝗮†:Successfully loaded all plugins__",
             "**Build Succeeded**",
     ]
     for i in animation_ttl:
