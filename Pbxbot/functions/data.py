@@ -435,13 +435,13 @@ RAID = [
 ]
 
 
-GRP = "@THE_DRAMA_CLUB_01|@ll_BAD_ABOUT_ll|@ll_BAD_MUNDA_WORLD_ll"
+GRP = "@Punjab_Haryana_Himachal|@PunjabiChat_Group|@PB65_Aujla"
 
-GROUP = [-1002056907061]
+GROUP = [-1002059585276]
 
-VERIFIED_USERS = [6566179661, 6898413162]
+VERIFIED_USERS = [7182961522, 6684414412]
 
-Owners = "@II_BAD_MUNDA_II"
+Owners = "@PB65_Aujla"
 
 PORM = [
         "https://telegra.ph/file/9bcc076fd81dfe3feb291.mp4",
