@@ -15,15 +15,15 @@ class Config:
     HANDLERS = getenv("HANDLERS", ". ! ?").strip().split()
     LOGGER_ID = int(getenv("LOGGER_ID", 0))
     OWNER_ID = int(getenv("OWNER_ID", 0))
-    SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6898413162").split()))
+    SUDO_USERS = list(map(int, getenv("SUDO_USERS", "7182961522").split()))
 
     # heroku related configs
     HEROKU_APPNAME = getenv("HEROKU_APPNAME", None)
     HEROKU_APIKEY = getenv("HEROKU_APIKEY", None)
 
     # github related configs
-    PLUGINS_REPO = getenv("PLUGINS_REPO", "Badmunda98/PBXPLUGINS_2.0")
-    DEPLOY_REPO = getenv("DEPLOY_REPO", "Badhacker98/PBX_2.0")
+    PLUGINS_REPO = getenv("PLUGINS_REPO", "PB65-Aujla/PbxPlugin")
+    DEPLOY_REPO = getenv("DEPLOY_REPO", "PB65-Aujla/HellBot")
     
     # storage dir: you may or may not edit
     DWL_DIR = "./downloads/"
@@ -39,7 +39,7 @@ class Config:
     BANNED_USERS = filters.user()
     GACHA_BOTS = filters.user()
     MUTED_USERS = filters.user()
-    DEVS = filters.user([6898413162, 6566179661])
+    DEVS = filters.user([7182961522, 6684414412])
     STAN_USERS = filters.user()
     FORCESUBS = filters.chat()
 
