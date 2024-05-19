@@ -30,7 +30,7 @@ async def chat_gpt(bot, message):
                     end_time = time.time()
                     telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ms"
                     await message.reply_text(
-                        f" {x}      ᴀɴsᴡᴇʀɪɴɢ ʙʏ ➛  @ll_THE_BAD_BOT_ll",
+                        f" {x}      ᴀɴsᴡᴇʀɪɴɢ ʙʏ ➛  @LIONS_OF_PANJAB",
                         parse_mode=ParseMode.MARKDOWN
                     )
                 else:
@@ -53,7 +53,7 @@ async def chat_gpt(bot, message):
         else:
             a = message.text.split(' ', 1)[1]
             r=api.gemini(a)["results"]
-            await message.reply_text(f" {r} \n\n🎉ᴘᴏᴡᴇʀᴇᴅ ʙʏ @ll_THE_BAD_BOT_ll ", parse_mode=ParseMode.MARKDOWN)     
+            await message.reply_text(f" {r} \n\n🎉ᴘᴏᴡᴇʀᴇᴅ ʙʏ @LIONS_OF_PANJAB ", parse_mode=ParseMode.MARKDOWN)     
     except Exception as e:
         await message.reply_text(f"**ᴇʀʀᴏʀ: {e} ")
 
@@ -75,7 +75,7 @@ async def imagine_(b, message: Message):
             f.write(x)
         caption = f"""
     💘sᴜᴄᴇssғᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ : {text}
-    ✨ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ : @ll_THE_BAD_BOT_ll
+    ✨ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ : @LIONS_OF_PANJAB
     🥀ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}
     """
         await mukesh.delete()
