@@ -11,7 +11,7 @@ from . import HELP_MSG, START_MSG, Config, Symbols, Pbxbot
 async def check_auth_click(cb: CallbackQuery) -> bool:
     if cb.from_user.id not in Config.AUTH_USERS:
         await cb.answer(
-            "You are not authorized to use this bot. \n\n</> @ll_THE_BAD_BOT_ll",
+            "You are not authorized to use this bot. \n\n</> @LIONS_OF_PANJAB",
             show_alert=True,
         )
         return False
@@ -79,7 +79,7 @@ async def bot_help_cmd_cb(_, cb: CallbackQuery):
     result += (
         f"\n\n**{Symbols.arrow_right} 𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇:** __{cmd_dict['description']}__"
     )
-    result += f"\n\n**<\> @ll_THE_BAD_BOT_ll ❤️**"
+    result += f"\n\n**<\> @LIONS_OF_PANJAB ❤️**"
 
     buttons = [
         [
@@ -189,7 +189,7 @@ async def help_cmd_cb(_, cb: CallbackQuery):
     if cmd_dict["note"]:
         result += f"\n\n**{Symbols.arrow_right} 𝖭𝗈𝗍𝖾:** __{cmd_dict['note']}__"
 
-    result += f"\n\n**<\> @ll_THE_BAD_BOT_ll ❤️**"
+    result += f"\n\n**<\> @LIONS_OF_PANJAB ❤️**"
 
     buttons = [
         [
@@ -222,7 +222,7 @@ async def help_close_cb(_, cb: CallbackQuery):
                 [[InlineKeyboardButton("Reopen", "help_data:reopen")]]
             ),
         )
-    elif action == "reopen":
+    elif action == "╰➢𝔸𝕦𝕛𝕝𝕒𝔹𝕠𝕥 𝕄𝕖𝕟𝕦":
         buttons, pages = await gen_inline_help_buttons(0, sorted(Config.CMD_MENU))
         caption = await help_template(
             cb.from_user.mention,
@@ -245,18 +245,15 @@ async def help_close_cb(_, cb: CallbackQuery):
     elif action == "source":
         buttons = [
             [
-                InlineKeyboardButton("⚜️ ᴅᴇᴘʟᴏʏ ⚜️ ", url="https://github.com/Badhacker98/PBX_2.0/fork"),
-                InlineKeyboardButton("", url="https://t.me/ll_BAD_MUNDA_ll"),
+                InlineKeyboardButton("⚜️ ᴅᴇᴘʟᴏʏ ⚜️ ", url="https://t.me/PB65_Aujla"),
+                
             ],
             [
-                InlineKeyboardButton("🦋 𝐏ʙx 𝐁ᴏᴛ 𝐒ᴜᴘᴘᴏʀᴛ ❤️", url="https://t.me/ll_THE_BAD_BOT_ll"),
+                InlineKeyboardButton("🦋 AᴜJʟᴀ Cʜᴀᴛ ❤️", url="https://t.me/LIONS_OF_PANJAB"),
             ],
             [
-                InlineKeyboardButton("⏤͟͟͞͞‌ٖ🥀➣Bᴀᴅ❤︎ ᴍᴜɴᴅᴀ ➻ >•⏤͟͟͞͞‌ٖٖٖ", url="https://t.me/ll_BAD_MUNDA_ll"),
-            ],
-            [
-                InlineKeyboardButton("💥 sᴜᴘᴏᴏʀᴛ 💥", url="https://t.me/II_CHAT_HUB_II"),
-                InlineKeyboardButton("🖥️ Updates 💻", url="https://t.me/ll_THE_BAD_BOT_ll"),
+                InlineKeyboardButton("💥 sᴜᴘᴏᴏʀᴛ 💥", url="https://t.me/PunjabiChat_Group"),
+                InlineKeyboardButton("🖥️ Updates 💻", url="https://t.me/Punjab_Haryana_Himachal"),
             ],
             
             [
@@ -266,11 +263,11 @@ async def help_close_cb(_, cb: CallbackQuery):
         ]
         await cb.edit_message_text(
             "__» The source code is available on GitHub. You can find the link below.__\n"
-            "__» Every project available under Badhacker98 are open-source and free to use and modify to your needs.__\n"
+            "__» Every project available under @PB65_Aujla are open-source and free to use and modify to your needs.__\n"
             "__» Anyone pretending to be the developer of this bot and selling the code, is a scammer.__\n\n"
             "__» Please consider giving a star to the repository if you liked the project.__\n"
             "__» Feel free to contact us if you need any help regarding the source code.__\n\n"
-            "**❤️ @ll_THE_BAD_BOT_ll ❤️**",
+            "**❤️ @LIONS_OF_PANJAB 🦁**",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(buttons),
         )
