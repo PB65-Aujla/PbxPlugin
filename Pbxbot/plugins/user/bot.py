@@ -53,14 +53,14 @@ async def alive(client: Client, message: Message):
 @on_message("ping", allow_stan=True)
 async def ping(client: Client, message: Message):
     start_time = time.time()
-    Pbx = await Pbxbot.edit(message, "`·.·★ ᴘʙx 2.0 ★·.·´")
+    Pbx = await Pbxbot.edit(message, "`·.·★ AᴜJʟᴀ 2.0 ★·.·´")
     uptime = readable_time(time.time() - START_TIME)
     img = await db.get_env(ENV.ping_pic)
     end_time = time.time()
     speed = end_time - start_time
     caption = await ping_template(round(speed, 3), uptime, client.me.mention)
     if img:
-        PIC = "https://telegra.ph/file/14166208a7bf871cb0aca.jpg"
+        PIC = "https://te.legra.ph/file/0575d74af6385a5c9d3a4.jpg"
         img = random.choice(img.split(" "))
         if img.endswith(".mp4"):
             await message.reply_video(
@@ -128,7 +128,7 @@ HelpMenu("bot").add(
     "history",
     "<reply to user>/<username/id>",
     "Get the username, name history of an user.",
-    "history @II_BAD_MUNDA_II",
+    "history @PB65_Aujla",
     "This command uses SangMata Bot to get the history.",
 ).info(
     "Alive Menu"
