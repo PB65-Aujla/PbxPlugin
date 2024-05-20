@@ -53,10 +53,10 @@ async def help(client: Client, message: Message):
 @on_message("repo", allow_stan=True)
 async def repo(_, message: Message):
     REPO_TEXT = (
-        "__🍀 𝖱𝖾𝗉𝗈:__ [Github](https://github.com/Badhacker98/PBX_2.0/fork)\n\n"
-        "__🍀 Updates:__ @PBX_NETWORK\n"
-        "__🍀 Support:__ @ll_THE_BAD_BOT_ll\n\n"
-        "**By ©️ @ll_THE_BAD_BOT_ll**"
+        "__🍀 𝖱𝖾𝗉𝗈:__ [Github](https://t.me/LIONS_OF_PANJAB)\n\n"
+        "__🍀 Updates:__ @Punjab_Haryana_Himachal\n"
+        "__🍀 Support:__ @PunjabiChat_Group\n\n"
+        "**By ©️ @PB65_Aujla**"
     )
     await Pbxbot.edit(message, REPO_TEXT, no_link_preview=True)
 
@@ -304,7 +304,7 @@ HelpMenu("help").add(
     "installall",
     "<channel username>",
     "Install all the plugins from the mentioned channel.",
-    "installall @ll_THE_BAD_BOT_ll",
+    "installall @PB65_Aujla",
     "Do not install plugins from untrusted sources, they can be a malware. We're not responsible for any damage caused by them.",
 ).add(
     "unload",
