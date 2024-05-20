@@ -18,7 +18,7 @@ async def clone(client: Client, message: Message):
     if replied_user.is_self:
         return await Pbxbot.delete(message, "I can't clone myself!")
 
-    Pbx = await Pbxbot.edit(message, "Cloning ...")
+    Pbx = await Pbxbot.edit(message, "AᴜJʟᴀ Cloning ...")
 
     try:
         meh = await client.resolve_peer(client.me.id)
@@ -71,7 +71,7 @@ async def revert(client: Client, message: Message):
     if not first_name:
         return await Pbxbot.delete(message, "I'm not cloned yet.")
 
-    Pbx = await Pbxbot.edit(message, "Reverting ...")
+    Pbx = await Pbxbot.edit(message, "Reverting By AᴜJʟᴀ...")
 
     await client.update_profile(first_name, last_name, about)
 
