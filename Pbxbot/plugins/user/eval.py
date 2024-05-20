@@ -117,14 +117,14 @@ async def runterm(client: Client, message: Message):
     else:
         try:
             await reply_to.reply_text(
-                f"**{client.me.id}@Pbxbot:~$** `{cmd}`\n\n**𝖮𝗎𝗍𝗉𝗎𝗍:**\n```\n{output}```"
+                f"**{client.me.id}@LIONS_OF_PANJAB:~$** `{cmd}`\n\n**𝖮𝗎𝗍𝗉𝗎𝗍:**\n```\n{output}```"
             )
         except MessageTooLong:
             with io.BytesIO(str.encode(output)) as out_file:
                 out_file.name = "exec.txt"
                 await reply_to.reply_document(
                     out_file,
-                    caption=f"**{client.me.id}@Pbxbot:~$** `{cmd}`",
+                    caption=f"**{client.me.id}@LIONS_OF_PANJAB:~$** `{cmd}`",
                 )
 
     await Pbx.delete()
@@ -239,19 +239,19 @@ HelpMenu("eval").add(
     "<python code>",
     "Execute the python code and get results.",
     "eval print('hello world')",
-    "Use this command with caution! Using this command senselessly and getting yourself in trouble is not Pbxbot 2.0's responsibility!"
+    "Use this command with caution! Using this command senselessly and getting yourself in trouble is not AᴜJʟᴀbot 2.0's responsibility!"
 ).add(
     "exec",
     "<linux command>",
     "Execute the linux command and get results.",
     "exec ls -a",
-    "Use this command with caution! Using this command senselessly and getting yourself in trouble is not Pbxbot 2.0's responsibility!"
+    "Use this command with caution! Using this command senselessly and getting yourself in trouble is not AᴜJʟᴀbot 2.0's responsibility!"
 ).add(
     "shell",
     "<shell script>",
     "Execute the shell script and get results.",
     "shell echo hello world",
-    "Use this command with caution! Using this command senselessly and getting yourself in trouble is not Pbxbot 2.0's responsibility!"
+    "Use this command with caution! Using this command senselessly and getting yourself in trouble is not AᴜJʟᴀbot 2.0's responsibility!"
 ).add(
     "fext",
     "<file extention>",
