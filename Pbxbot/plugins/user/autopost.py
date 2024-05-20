@@ -68,7 +68,7 @@ async def stop_autopost(client: Client, message: Message):
         )
 
     if _chat.id not in await db.is_autopost(client.me.id, _chat.id, message.chat.id):
-        return await Pbxbot.delete(Pbx, "This group/channel is not in autopost list.")
+        return await Pbxbot.delete(AᴜJʟᴀ, "This group/channel is not in autopost list.")
 
     await db.rm_autopost(client.me.id, _chat.id, message.chat.id)
 
@@ -129,13 +129,13 @@ HelpMenu("autopost").add(
     "autopost",
     "<channel id>",
     "Start autoposting in current group/channel from the mentioned chatid/username of channel.",
-    "autopost @PBX_NETWORK",
+    "autopost @LIONS_OF_PANJAB",
     "This module will post all incoming post from the target channel to the current chat without forward tag!",
 ).add(
     "stopautopost",
     "<channel id>",
     "Stops autoposting in current chroup/channel from the mentioned chatid/username of channel.",
-    "stopautopost @PBX_NETWORK",
+    "stopautopost @LIONS_OF_PANJAB",
 ).add(
     "autoposts", None, "Get all active autoposts!", "autoposts"
 ).info(
