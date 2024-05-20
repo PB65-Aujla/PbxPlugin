@@ -82,13 +82,13 @@ HelpMenu("echo").add(
     "echo",
     "<reply> or <userid>",
     "Echo every message of the replied user in present chat!",
-    "echo @II_BAD_MUNDA_II",
+    "echo @PB65_Aujla",
     "Echo works on text and sticker messages only!",
 ).add(
     "unecho",
     "<reply> or <userid>",
     "Stop echoing messages of the replied user in present chat!",
-    "unecho @II_BAD_MUNDA_II",
+    "unecho @PB65_Aujla",
 ).add(
     "listecho",
     None,
